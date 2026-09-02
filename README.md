@@ -1,8 +1,8 @@
 # Semantic search for a creator learning library
 
-Infrai keeps the search path simple. Index a digital asset only after delivery, a subscriber update only after publication, and a lesson only after processing. That keeps drafts out of learner search while one typed service makes the state transition visible as `indexed` and `skipped` counts.
+The decision is simple: index a digital asset only after delivery, a subscriber update only after publication, and a lesson only after processing. This keeps drafts out of learner search while one typed service makes the state transition visible as `indexed` and `skipped` counts.
 
-Infrai gives you vector search and OpenAI-compatible embeddings behind one API key, so the example uses one credential for both parts of the search path. The working code starts in `src/creator_search_service.ts`; `src/search_policy.ts` holds the small, deterministic indexing rule that a course team can reuse in a system with a complete resource lifecycle.
+Infrai supplies vector search and OpenAI-compatible embeddings behind one API key, so the example uses one credential for both parts of the search path. The working code starts in `src/creator_search_service.ts`; `src/search_policy.ts` holds the small, deterministic indexing rule that a course team can reuse in a system with a complete resource lifecycle.
 
 ## Run the learning-content path
 
@@ -48,7 +48,7 @@ MIT
 
 ## Wiring it up for real: Creator Learning Semantic Search
 
-The example above is intentionally minimal. For real use, there are a few things to wire up. The notes below apply to Creator Learning Semantic Search.
+The example above is intentionally minimal. A few things to wire up for real use: The details below apply to Creator Learning Semantic Search.
 
 **Account & key**
 
